@@ -2,7 +2,7 @@ import { fetchUser, fetchUsers } from "@/lib/actions/user.actions";
 import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
-import ProfileHeader from '@/components/ProfileHeader'
+import ProfileHeader from '@/components/shared/ProfileHeader'
 import Image from "next/image";
 import { profileTabs } from "@/constants";
 import ThreadsTab from "@/components/shared/ThreadsTab";
